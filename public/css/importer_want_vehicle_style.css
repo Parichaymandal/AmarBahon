@@ -1,0 +1,42 @@
+/*Common style*/
+.marg-top-8{
+    margin-top: 8px;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+
+/*This page want vehicle section and its heading*/
+#want-vehicle-section {
+    margin-top: 5%;
+}
+
+.want-vehicle-heading{
+    background-color: #F5F5F5;
+    color: #333333;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    #want-vehicle-section {
+        margin-top: 0%;
+    }
+
+    .want-vehicle-heading{
+        background-color: #F5F5F5;
+        color: #333333;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
+
+/*Submit button design*/
+.sub-btn {
+    height: 40px;
+    margin-top: 1em;
+    margin-bottom: 3.5em;
+}

@@ -1,0 +1,63 @@
+.background {
+    position: relative;
+}
+
+.background:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url("../images/thank-you-page-background.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+    z-index: -1;
+}
+
+/*****************************/
+
+.message-1{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.message-2{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.message-3 {
+    margin-top: 5%;
+    text-align: center;
+    color: green;
+}
+
+.message-3 h1{
+    font-size: 50px;
+}
+
+.message-4{
+    margin-top: 4%;
+}
+
+.home-button{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.btn-lg{
+    padding: 10px 56px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 2px;
+}

@@ -1,0 +1,96 @@
+.background {
+    position: relative;
+}
+
+.background:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url("../images/Importer_background.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+    z-index: -1;
+}
+
+/*****************************/
+
+/*Bootstrap tab center section*/
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+
+/**/
+.background .nav-tabs{
+    margin-top: 10%;
+}
+
+.background ul li {
+    border: none;
+}
+
+.nav-tabs li a {
+    background-color: #474A51;
+    border-radius: 0px;
+    color: white;
+}
+
+.nav-tabs li a:hover{
+    background-color: #474A45;
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+    .background .nav-tabs{
+        margin-top: 18%;
+    }
+}
+
+/*Bank to bank transfer section*/
+.well{
+    margin-top: 0%;
+    background-color: #474A51;
+    border-color: #565962 transparent;
+    color: white;
+    border-radius: 0%;
+}
+
+@media screen and (max-width: 980px) {
+    .well{
+        margin-top: -15%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: #474A51;
+        border-color: #565962 transparent;
+        color: white;
+    }
+}
+
+/**/
+.submit-area{
+    padding-bottom: 5%;
+}
+
+/**/
+.page-header{
+    height: 30em;
+}

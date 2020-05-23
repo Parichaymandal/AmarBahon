@@ -1,0 +1,73 @@
+/*******  section starts ******/
+/*******  section ends  ******/
+
+
+
+
+
+
+
+/******* Button section starts******/
+#button_section {
+    margin-top: 9.5%;
+    padding-bottom: 10px;
+    /*background-color: #a94442;*/
+}
+
+@media screen and (max-width: 450px) {
+    #button_section{
+        margin-top: 18.5%;
+        padding-top: 10px;
+    }
+}
+/******* Button section ends  ******/
+
+
+/******* Want vehicle and build company button section starts ******/
+.center-btn {
+    text-align: center;
+}
+
+.right-btn {
+    text-align: right;
+}
+/******* Want vehicle and build company button section ends  ******/
+
+
+
+/******** Job post section starts ********/
+#jobs_and_reply {
+    height: 100%;
+    /*background-color: #BBAACC;*/
+    /*overflow-y: auto;*/
+}
+
+.job_post_section{
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+}
+
+.single_post {
+    padding-bottom: 10px;
+}
+
+.sec-heading {
+    padding-bottom: 10px;
+}
+
+.panel-color{
+    background-color: #D9EDF7;
+    border-color: #D9EDF7;
+}
+
+.panel-heading-sub-job{
+    padding: 0px 0px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #31708F;
+}
+/******** Job post section ends ********/
+
+
+

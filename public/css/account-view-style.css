@@ -1,0 +1,53 @@
+/*Account view image section*/
+.imp-im-sec{
+    margin-top: 49%;
+    margin-bottom: 49%;
+}
+
+@media screen and (max-width: 980px){
+    .imp-im-sec{
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+}
+
+/*Account view info section*/
+.well{
+    margin-top: 7%;
+    background-color: #474A51;
+    border-color: #565962 transparent;
+    color: white;
+    border-radius: 3%;
+}
+
+img {
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 980px) {
+    .well{
+        margin-top: -15%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: #474A51;
+        border-color: #565962 transparent;
+        color: white;
+    }
+}
+
+/*Rating section*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+li{
+    float: left;
+}
+
+.rating{
+    font-size: 1.4em;
+    display: inline-block;
+}

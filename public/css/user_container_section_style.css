@@ -1,0 +1,27 @@
+/*******  Main container section starts ******/
+.job_noti_nego_section {
+    position: relative;
+}
+
+.job_noti_nego_section:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url("../images/Importer_background.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+/*******  Main container section ends  ******/

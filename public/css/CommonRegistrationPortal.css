@@ -1,0 +1,83 @@
+.background {
+    position: relative;
+}
+
+.background:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url("../images/home1bg.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+    z-index: -1;
+}
+
+/*****************************/
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Helvetica Neue";
+    color: whitesmoke;
+    background-color: #245269;
+    border-radius: 3px;
+}
+
+a{
+    font-family: "Helvetica Neue";
+}
+
+
+.signInArea {
+    margin-top: 7%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.signInArea .btn{
+    background-color: #245269;
+    border-color: #245269;
+    border-radius: 2px;
+}
+
+.registrationArea {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.registrationArea .btn{
+    background-color: #245269;
+    border-color: #245269;
+    border-radius: 2px;
+}
+
+/*.btn {
+    height: 3.0em;
+    width: 10.0em;
+    background-color: #acbbc4;
+    border-color: #acbbc4;
+    position:relative;
+    top:50%;
+    left:50%;
+}
+
+.btn.sharp {
+    border-radius: 0;
+}*/
+
+
+

@@ -1,0 +1,61 @@
+/**/
+.padd-top {
+    padding-top: 10px;
+}
+/**/
+
+/**/
+#importer_info{
+
+}
+/**/
+
+/**/
+#CARWS{
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 480px) {
+    .tab-content {
+        margin-top: 2%;
+    }
+}
+
+#CARWS ul li {
+    border: none;
+}
+
+#CARWS ul li a{
+    /*background-color: white;*/
+    border-radius: 0px;
+}
+
+/**/
+
+/**/
+.sec-heading {
+    padding-bottom: 10px;
+}
+
+.single_post {
+    padding-bottom: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/**/
+
+/**/
+.entry-heading{
+    margin-left:40px;
+    color: whitesmoke;
+}
+/**/
+
+/**/
+.padding-top {
+    margin-top: 10px;
+}
+/**/
